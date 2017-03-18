@@ -12,12 +12,12 @@ public class ConnectionClass {
     String ip;
 
     public ConnectionClass()
-    {
-        classs = "net.sourceforge.jtds.jdbc.Driver";
-        db = "softwareEngineering";
-        un = "giannis";
-        password = "Fotinakis94";
-        ip = "softwareengineering.database.windows.net:1433";
+    { //place here the right credentials to connect
+        classs = "";
+        db = "";
+        un = "";
+        password = "";
+        ip = "";
     }
 
     public ConnectionClass(String Ip, String Classs, String Db, String Un, String Password)
