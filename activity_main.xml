@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0392b"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <TextView
+        android:id="@+id/lblheader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="ROADWORKS : "
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <ListView
+        android:id="@+id/lstRoadWorks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:divider="#252525"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/btnview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="VIEW"
+        android:background="#fff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#c0392b" >
+    </Button>
+
+</LinearLayout>
